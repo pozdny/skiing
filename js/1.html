@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Vampire Test</title>
+    <link rel="stylesheet" href="src/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="src/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="my-app.css">
+    <script type="text/javascript" src="src/js/handlebars.js"></script>
+    <script type="text/javascript" src="words.js"></script>
+</head>
+<body>
+<!-- Views -->
+<div class="views">
+    <div class="view view-main">
+        <div class='navbar-settings'>
+            <div class='title-app'>
+                Vampire Test
+            </div>
+            <div class='numder-question'>
+                <div class='back-button-navbar-question-menu'></div>
+                <div class='numder-question-text'></div>
+            </div>
+            <div class='return-help'>
+                <div class='back-button-navbar-settings'></div>
+                <div class='back-button-navbar-settings-menu'></div>
+                <div class='help-navbar-settings'>Help</div>
+            </div>
+            <div class='return-menu'>
+                <div class='back-button-navbar-settings'></div>
+                <div class='help-navbar-result'>Your result</div>
+            </div>
+            <div class="setting-menu">
+                <a href="options.html">
+                    <div class='navbar-title-setings'></div>
+                </a>
+                <a href="manual.html" >
+                    <div class='navbar-title-help'></div>
+                </a>
+
+                <div class='navbar-title-sound'></div>
+            </div>
+
+        </div>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="left swipe-open-0">
+                </div>
+                <div class="center sliding swipe-open-1"></div>
+
+                <div class="right swipe-open-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="pages navbar-through">
+            <div data-page="index" class="page main">
+                <div class="page-content">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class='title-friend'>
+                                    ID for turning friend
+                                </div>
+                                <div class='wrap-cavnas-img'>
+                                    <canvas id="qr-code"></canvas>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class='title-test-pic'></div>
+                                <a href="question0.html"><div class='start-test-button'>Start Test</div></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="manual-turning-your-friend">
+                                    <div class='title-manual-turning-your-friend'>
+                                        How turning your friend?
+                                    </div>
+                                    <div class='you'></div>
+                                    <div class='make-to'></div>
+                                    <div class='phone-qr'></div>
+                                    <div class='make-to-finish'></div>
+                                    <div class='vampire-plus-one'></div>
+                                </div>
+                                <div class='button-take-photo'></div>
+                                <div class='title-victims-list'>List Victims</div>
+                                <div class="list-block victims-list">
+                                    <ul class="the-list-of-victims">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class='splashScreen'>
+            <div class="logoSplash"></div>
+            <div class='nameApp'></div>
+        </div>
+        <script id="tmp-question" type="text/template7">
+            <div class="list-block test">
+                <ul>
+                    <li>
+                        <div class="question 1"></div>
+                    </li>
+                    <li class='soundClick'>
+                        <label class="label-radio item-content">
+                            <input type="radio" name="my-radio{{number}}" value="#" >
+                            <div class="item-inner">
+                                <div class="item-title option{{number}}"></div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class='soundClick'>
+                        <label class="label-radio item-content">
+                            <input type="radio" name="my-radio{{number}}"  value="#">
+                            <div class="item-inner">
+                                <div class="item-title option{{number}}"></div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class='soundClick'>
+                        <label class="label-radio item-content">
+                            <input type="radio" name="my-radio{{number}}"  value="#">
+                            <div class="item-inner">
+                                <div class="item-title option{{number}}"></div>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </script>
+        <script id="tmp-list" type="text/template7">
+            <ul>
+                {{#each contentMenu}}
+                <li class='soundClick'>
+                    <a href="{{query}}" data-force="true" class="item-link item-content">
+                        <div class="item-inner">
+                            <div class="item-title">{{text}}</div>
+                            <div class="item-after"></div>
+                        </div>
+                    </a>
+                </li>
+                {{/each}}
+            </ul>
+        </script>
+        <script id="tmp-list-article" data-force="true" type="text/template7">
+            <div class='title-article-manual'>{{title}}</div>
+            <div class='wrap-article-image'><div class="article-image" style='background-image: url("{{style}}")'></div></div>
+            <div id="text" >{{article}}</div>
+        </script>
+        <script type="text/javascript" src="src/js/tap.js"></script>
+        <script type="text/javascript" src="src/js/grid.js"></script>
+        <script type="text/javascript" src="src/js/version.js"></script>
+        <script type="text/javascript" src="src/js/detector.js"></script>
+        <script type="text/javascript" src="src/js/formatinf.js"></script>
+        <script type="text/javascript" src="src/js/errorlevel.js"></script>
+        <script type="text/javascript" src="src/js/bitmat.js"></script>
+        <script type="text/javascript" src="src/js/datablock.js"></script>
+        <script type="text/javascript" src="src/js/bmparser.js"></script>
+        <script type="text/javascript" src="src/js/datamask.js"></script>
+        <script type="text/javascript" src="src/js/rsdecoder.js"></script>
+        <script type="text/javascript" src="src/js/gf256poly.js"></script>
+        <script type="text/javascript" src="src/js/gf256.js"></script>
+        <script type="text/javascript" src="src/js/decoder.js"></script>
+        <script type="text/javascript" src="src/js/qrcode.js"></script>
+        <script type="text/javascript" src="src/js/findpat.js"></script>
+        <script type="text/javascript" src="src/js/alignpat.js"></script>
+        <script type="text/javascript" src="src/js/databr.js"></script>
+        <script type="text/javascript" src="src/js/lib/jquery.js"></script>
+        <script type="text/javascript" src="src/js/src/html5-qrcode.js"></script>
+        <script type="text/javascript" src="src/js/lib/html5-qrcode.min.js"></script>
+        <script type="text/javascript" src="src/js/lib/jsqrcode-combined.min.js"></script>
+        <script src="src/js/webactivity.js"></script>
+        <script src="src/js/qr.js"></script>
+        <script src="src/js/qr.min.js"></script>
+        <script type="text/javascript" src="src/js/framework7.min.js"></script>
+        <script type="text/javascript" src="my-functions.js"></script>
+        <script type="text/javascript" src="my-app.js"></script>
+</body>
+</html>
+
+

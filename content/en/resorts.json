@@ -1,0 +1,232 @@
+{
+ "resorts":[
+     {
+         "name": "Niseko",
+         "location": "Japan, Hokkaido",
+         "description": "Niseko resort has a huge amount of wonderful powder (15-16 meters per season), although the ski area is often crowded. It also has a great base for those who would like to discover nearby mountains. And, although it's situated in Japan, don't worry about language barriers.",
+         "img":"/resorts/niseko.jpg",
+         "rating":{
+             "Intermediate":4.5,
+             "Advanced": 3.5,
+             "Off-Piste": 4.5,
+             "Tree Skiing": 4.5,
+             "Expert": 3,
+             "Snow": 5,
+             "Lifts": 3.5,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 5,
+             "Nighttime Restaurants": 5,
+             "Powder": 4
+         }
+     },
+     {
+         "name": "Kiroro",
+         "location": "Japan, Hokkaido",
+         "description": " Kiroko resort has high quality of the powder and also the quantity is more than decent. The area is not really crowded and the resort has a fantastic lift infrastructure and quite nightlife.",
+         "img":"/resorts/kiroro.jpg",
+         "rating":{
+             "Intermediate":3.5,
+             "Advanced": 2.5,
+             "Off-Piste": 4,
+             "Tree Skiing": 5,
+             "Expert": 3,
+             "Snow": 5,
+             "Lifts": 5,
+             "Family Friendly": 4,
+             "Daytime Restaurants": 3,
+             "Nighttime Restaurants": 3.5,
+             "Powder": 5
+         }
+     },
+     {
+         "name": "Appi Kogen",
+         "location": "Japan, Honshu",
+         "description": "This place is really friendly to families. Besides different places to ski and snowboard there are places like child care, snow playing areas, different activities and a lot other activities. There are a lot of English speaking hosts.",
+         "img":"/resorts/appi_kogen.jpg",
+         "rating":{
+             "Intermediate":3,
+             "Advanced": 3.5,
+             "Off-Piste": 3.5,
+             "Tree Skiing": 4,
+             "Expert": 2,
+             "Snow": 4.5,
+             "Lifts": 4,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 4,
+             "Nighttime Restaurants": 4.5,
+             "Powder": 4
+         }
+     },
+     {
+         "name": "Rusutsu",
+         "location": "Japan, Hokkaido",
+         "description": "Rusutsu resort is famous mostly for amazing quantities of powder and tree-skiing, which is not banned! This resort is also suitable for almost all kind of skiers and snowboarders. Besides, this is a really family-friendly resort with plenty of activities.",
+         "img":"/resorts/rusutsu.jpg",
+         "rating":{
+             "Intermediate":4,
+             "Advanced": 3,
+             "Off-Piste": 5,
+             "Tree Skiing": 5,
+             "Expert": 2.5,
+             "Snow": 5,
+             "Lifts": 5,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 3.5,
+             "Nighttime Restaurants": 4,
+             "Powder": 4.5
+         }
+     },
+     {
+         "name": "Whistler Blackomd",
+         "location": "Canada",
+         "description": "Whistler Blackomd is the place every skier or snowboarder should visit at least once in a lifetime! It may be sometimes crowded, sometimes people can't find a lunch table, but it's not what people usually come here for! Excellent powder, cool terrains, expert and extreme terrains, lifting infrastucture...it's all here!",
+         "img":"/resorts/whistler_blackomd.jpg",
+         "rating":{
+             "Intermediate":4.5,
+             "Advanced": 5,
+             "Off-Piste": 5,
+             "Tree Skiing": 4,
+             "Expert": 2.5,
+             "Snow": 5,
+             "Lifts": 5,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 3.5,
+             "Nighttime Restaurants": 4,
+             "Powder": 4.5
+         }
+     },
+     {
+         "name": "Kicking Horse",
+         "location": "Canada",
+         "description": "Although this resort is only being developed in early stages, but it already has a really good potential. The powder is perfect, it's still not really crowded. All in all, this resort has a chance to become one of the most fabulous resorts.",
+         "img":"/resorts/kicking_horse.jpg",
+         "rating":{
+             "Intermediate":2.5,
+             "Advanced": 5,
+             "Off-Piste": 4.5,
+             "Tree Skiing": 4,
+             "Expert": 5,
+             "Snow": 3.5,
+             "Lifts": 3,
+             "Family Friendly": 3,
+             "Daytime Restaurants": 3,
+             "Nighttime Restaurants": 3,
+             "Powder": 4.5
+         }
+     },
+     {
+         "name": "Telluride",
+         "location": "USA, Colorado",
+         "description": "If you are looking for a cheap vacation, this one might be not exactly for you, but the price is actually really reasonable. Besides skiing and snowboarding this resort has a lot of different activities: winter fly fishing, spa treatment, dog sledding, sleight ride dinners, snowmobiling, ice-climbing, glider riding and many other things.",
+         "img":"/resorts/telluride.jpg",
+         "rating":{
+             "Intermediate":4.5,
+             "Advanced": 4,
+             "Off-Piste": 4,
+             "Tree Skiing": 4,
+             "Expert": 5,
+             "Snow": 4,
+             "Lifts": 5,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 5,
+             "Nighttime Restaurants": 4.5,
+             "Powder": 4.5
+         }
+     },
+     {
+         "name": "Kirkwood",
+         "location": "USA, California",
+         "description": "This resort is made mostly for skiing and snowboarding, besides that there are not a lot thing to do. The variety of evening restaurants is poor. Not many souvenir shops and all that glamorous things. But the main “feature” of this resort is a very varied skiing and boarding terrain. But still, there are a lot of different lodging possibilities that are very close to the slopes.",
+         "img":"/resorts/kirkwood.jpg",
+         "rating":{
+             "Intermediate":3,
+             "Advanced": 5,
+             "Off-Piste": 5,
+             "Tree Skiing": 4,
+             "Expert": 4.5,
+             "Snow": 4.5,
+             "Lifts": 2.5,
+             "Family Friendly": 3.5,
+             "Daytime Restaurants": 2.5,
+             "Nighttime Restaurants": 2,
+             "Powder": 4.5
+         }
+     },
+     {
+         "name": "Alta",
+         "location": "USA, Utha",
+         "description": "Alta resort is also famous for and outstanding quality of snow powder. There are all kinds of terrains: for beginners and intermediate skiers and snowboarders; for advanced and experts. Also this resort has its own history and not really crowded (maybe only on weekends. But, at the same time, there is nothing to do there but skiing and snowboarding.",
+         "img":"/resorts/alta.jpg",
+         "rating":{
+             "Intermediate":3.5,
+             "Advanced": 4.5,
+             "Off-Piste": 5,
+             "Tree Skiing": 4,
+             "Expert": 5,
+             "Snow": 5,
+             "Lifts": 3,
+             "Family Friendly": 4.5,
+             "Daytime Restaurants": 3.5,
+             "Nighttime Restaurants": 4,
+             "Powder": 5
+         }
+     },
+     {
+         "name": "Grand Targhee",
+         "location": "USA, Wyoming",
+         "description": "Grand Targhee resort has a lot of pluses, beginning with some amazing snow, gorgeous scenery, great terrain, access to backcountry and not many people around. In fact, it's really inexpensive. In few years this little piece of heaven for skiers and snowboarders may become really crowded, so, don't waste your time!",
+         "img":"/resorts/grand_targhee.jpg",
+         "rating":{
+             "Intermediate":5,
+             "Advanced": 5,
+             "Off-Piste": 4,
+             "Tree Skiing": 3,
+             "Expert": 4,
+             "Snow": 5,
+             "Lifts": 4,
+             "Family Friendly": 4,
+             "Daytime Restaurants": 3.5,
+             "Nighttime Restaurants": 2,
+             "Powder": 5
+         }
+     },
+     {
+         "name": "Cerro Catedra",
+         "location": "South America.",
+         "description": "This one is a really developed ski and snowboard resort nowadays. Although it's still being improved. The village has a good access to the slopes. Cerro Catedral is mostly undiscovered ski resort, but can be really crowded, especially during peak holiday season in July. The best time to go there is from mid August onwards.",
+         "img":"/resorts/cerro_catedra.jpg",
+         "rating":{
+             "Intermediate":4.5,
+             "Advanced": 4,
+             "Off-Piste": 5,
+             "Tree Skiing": 4,
+             "Expert": 4.5,
+             "Snow": 3,
+             "Lifts": 4,
+             "Family Friendly": 4,
+             "Daytime Restaurants": 4.5,
+             "Nighttime Restaurants": 3,
+             "Powder": 3.5
+         }
+     },
+     {
+         "name": "St Anton",
+         "location": "Europe, Austria.",
+         "description": "St Anton is mostly designed for advanced and expert skiers and snowboarders. But, there is still a possibility for beginners and intermediate skiers and snowboarders enjoy this resort. The lifting system is awesome, but even though sometimes your can see lift queues. And, this resort has a reasonable price.",
+         "img":"/resorts/st_anton.jpg",
+         "rating":{
+             "Intermediate":4,
+             "Advanced": 2.5,
+             "Off-Piste": 4,
+             "Tree Skiing": 1,
+             "Expert": 5,
+             "Snow": 3,
+             "Lifts": 4,
+             "Family Friendly": 2,
+             "Daytime Restaurants": 5,
+             "Nighttime Restaurants": 5,
+             "Powder": 3.5
+         }
+     }
+    ]
+}
